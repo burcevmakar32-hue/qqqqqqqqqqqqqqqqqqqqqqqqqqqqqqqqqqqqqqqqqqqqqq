@@ -1,0 +1,63 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.balance-bar {
+  background: #1e1e2e;
+  padding: 15px;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.rocket-container {
+  height: 60vh;
+  position: relative;
+  background: #1a1a2a;
+  margin: 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 70px;
+  background: #ff4757;
+  border-radius: 50% 50% 0 0;
+}
+
+.coefficient {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+
+button {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  background: #7c3aed;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

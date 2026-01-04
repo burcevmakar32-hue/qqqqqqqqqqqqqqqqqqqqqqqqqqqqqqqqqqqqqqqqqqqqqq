@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀 Ракета</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="balance-bar">
+    <span id="balance">1000 🌟</span>
+  </div>
+
+  <div class="main-content">
+    <div class="rocket-container">
+      <div class="coefficient" id="coef">1.00x</div>
+      <div class="rocket" id="rocket"></div>
+    </div>
+    <div class="bet-controls">
+      <button id="bet-btn">Ставка: 100 🌟</button>
+      <button id="collect-btn" disabled>Забрать</button>
+    </div>
+    <div id="timer" class="hidden">⏱️ Забрать за <span id="timer-value">15</span> сек</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
